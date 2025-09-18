@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dapp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Voting Dapp</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Candidate
+                </th>
+                <th>
+                    Votes
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id = "name1">Ramu</td>
+                <td id ="candidate1">0</td>
+            </tr>
+            <tr>
+                <td id = "nane2">Kumar</td>
+                <td id ="candidate2">0</td>
+            </tr>
+            <tr>
+                <td id = "name3">Arun</td>
+                <td id ="candidate3">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="text" id ="Candidate"/>
+    <button onclick="vote()" class="btn">Vote</button>
+
+    <script src = "./node_modules/web3/dist/web3.min.js"></script>
+    <script src ="./script.js"></script>
+</body>
+</html>
